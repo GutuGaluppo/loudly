@@ -25,7 +25,7 @@ function Track({
 	currentSongIndex
 }: Props) {
 	const [liked, setLiked] = useState(false);
-	
+ 
 	const isCurrentSong = currentSongIndex === idx;
 
 	const handleLike = () => {
@@ -48,7 +48,7 @@ function Track({
 
 	return <div className={isCurrentSong ? "playing-track" : "list-item"}>
 		<div className="list-item-cover-title">
-			<img src={song.cover_image_path} alt="song" />
+			<img src={song.cover_image_path} alt={song.name} />
 			<div>
 				<p><strong>
 					{song.name}
@@ -69,7 +69,7 @@ function Track({
 				</button>
 			)}
 			<button onClick={handleLike} className="like-btn">
-				<FontAwesomeIcon icon={faHeart} className={liked ? "liked" : ""}/>
+				<FontAwesomeIcon icon={faHeart} className={liked ? "liked" : ""} />
 			</button>
 		</div>
 	</div>

@@ -37,7 +37,7 @@ function Player(
 			<h1>{song.name}</h1>
 			<p>{song.artist_name}</p>
 			<br />
-			<img src={song.cover_image_path} alt="" width="250px" />
+			<img src={song.cover_image_path} alt={song.name} className="cover" />
 
 			<audio src={song.music_file_path} ref={audioElement} onEnded={nextTrack} />
 
