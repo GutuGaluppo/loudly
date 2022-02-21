@@ -24,16 +24,16 @@ ul {
   margin-bottom: 5rem;
 }
 
-.cover_list {
-  width: 45px;
-}
-
 /* AudioPlayer Container */
 
 .player-container {
   margin-inline: auto;
   max-width: min-content;
   padding: 5rem;
+}
+
+.cover {
+  width: 280px;
 }
 
 /* Controls */
@@ -145,11 +145,11 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 5px 10px;
-	border-radius: 5px;
+  border-radius: 5px;
   transform: scale(1.05);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   transition: all 0.45s cubic-bezier(0.4, 0, 1, 1);
-	background: inherit;
-	background: white;
+  background: inherit;
+  background: white;
   z-index: 2;
 }
