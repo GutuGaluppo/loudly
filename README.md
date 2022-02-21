@@ -26,6 +26,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 It was a pleasant challenge that provided me the opportunity to put into practice some concepts that I've never used before such as <em>audio element</em>.
 
-I'd like to have more time to experiment little more the animations and transitions.
-I focused on make it work properly and lightweight.
+I'd like to have more time to experiment little more the animations and transitions.\
+I focused on make the audioplayer work properly and lightweight.
 
