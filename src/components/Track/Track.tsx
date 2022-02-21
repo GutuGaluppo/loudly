@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause, faHeart } from "@fortawesome/free-solid-svg-icons";
+import './track-style.css'
 
 type Props = {
 	song: {

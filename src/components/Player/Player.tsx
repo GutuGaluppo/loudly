@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause, faBackward, faForward } from "@fortawesome/free-solid-svg-icons";
 import { Songs } from 'Types';
+import './player-style.css'
 
 type Props = {
 	song: Songs,

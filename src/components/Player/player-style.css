@@ -1,0 +1,47 @@
+.cover {
+  width: 280px;
+}
+
+/* Controls */
+
+.music-player--controls {
+  max-width: 300px;
+  margin: 35px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.music-player--controls .play-btn {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.play-btn:focus {
+  color: rgba(110, 2, 26, 0.95);
+}
+
+.play-btn:hover {
+  transform: scale(1.3);
+  color: rgba(171, 2, 26, 0.95);
+}
+
+.music-player--controls .skip-btn {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: none;
+  transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+  cursor: pointer;
+}
+
+.skip-btn:hover {
+  transform: scale(1.2);
+  color: rgba(171, 2, 26, 0.95);
+}

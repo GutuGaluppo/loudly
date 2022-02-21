@@ -1,5 +1,5 @@
 import { Songs } from 'Types';
-import Track from './Track';
+import Track from '../Track/Track';
 
 type Props = {
 	songs: Songs[];

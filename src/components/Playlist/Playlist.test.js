@@ -28,14 +28,7 @@ describe('renders Playlist', () => {
 		const linkElement2 = screen.getByText(/Song 2/i);
 		expect(linkElement2).toBeInTheDocument();
 
-		// TODO: test for the rest of the playlist
-		// test if render every elements
 	});
-
-	// it('renders test id', () => {
-	// 	const track = screen.getByTestId("track");
-	// 	expect(track).toBeInTheDocument();
-	// })
 
 	it('renders correctly when there are no items', () => {
 		const tree = renderer.create(<Playlist songs={[]} />).toJSON();
